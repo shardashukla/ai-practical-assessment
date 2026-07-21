@@ -188,7 +188,7 @@ npm run lint
 | API integration | `tests/api/tasks.test.ts` | 13 |
 | Component unit | `tests/client/components.test.tsx` | 4 |
 
-See [docs/TESTING.md](docs/TESTING.md) for the full test strategy, validation matrix, and coverage plan.
+See [docs/testing.md](docs/testing.md) for the full test strategy, validation matrix, and coverage plan.
 
 ---
 
@@ -208,7 +208,7 @@ See [docs/TESTING.md](docs/TESTING.md) for the full test strategy, validation ma
 | GET | `/tasks/:id/activity` | Task activity audit log |
 | GET | `/users` | List seeded users |
 
-**Full reference:** [docs/API.md](docs/API.md) — request/response schemas, validation rules, error codes, and curl examples.
+**Full reference:** [docs/api.md](docs/api.md) — request/response schemas, validation rules, error codes, and curl examples.
 
 ---
 
@@ -222,10 +222,10 @@ flowchart LR
 
 | Layer | Documentation |
 |-------|---------------|
-| System architecture | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) |
-| Design decisions | [docs/DESIGN_DECISIONS.md](docs/DESIGN_DECISIONS.md) |
-| Database schema | [docs/DATABASE.md](docs/DATABASE.md) |
-| Task status state machine | [docs/STATE_MACHINE.md](docs/STATE_MACHINE.md) |
+| System architecture | [docs/architecture.md](docs/architecture.md) |
+| Design decisions | [docs/design_decisions.md](docs/design_decisions.md) |
+| Database schema | [docs/database.md](docs/database.md) |
+| Task status state machine | [docs/state_machine.md](docs/state_machine.md) |
 
 **Pattern:** Layered MVC — React views, Express route handlers, SQLite data store, shared TypeScript types across client and server.
 
@@ -237,9 +237,9 @@ This project was built using **Cursor IDE** with AI assistance across planning, 
 
 | Document | Description |
 |----------|-------------|
-| [docs/AI_WORKFLOW.md](docs/AI_WORKFLOW.md) | End-to-end AI development workflow |
-| [docs/PROMPT_HISTORY.md](docs/PROMPT_HISTORY.md) | Chronological prompt evolution |
-| [docs/CURSOR_WORKFLOW.md](docs/CURSOR_WORKFLOW.md) | Cursor IDE-specific practices |
+| [docs/ai_workflow.md](docs/ai_workflow.md) | End-to-end AI development workflow |
+| [docs/prompt_history.md](docs/prompt_history.md) | Chronological prompt evolution |
+| [docs/cursor_workflow.md](docs/cursor_workflow.md) | Cursor IDE-specific practices |
 | [ai-prompts/](ai-prompts/) | Phase-specific prompt archives |
 | [final-ai-usage-summary.md](final-ai-usage-summary.md) | Executive AI usage summary |
 
@@ -253,25 +253,25 @@ This project was built using **Cursor IDE** with AI assistance across planning, 
 
 | Document | Description |
 |----------|-------------|
-| [docs/REQUIREMENTS.md](docs/REQUIREMENTS.md) | Project goals, business requirements, constraints |
-| [docs/USER_STORIES.md](docs/USER_STORIES.md) | User stories by epic |
-| [docs/ACCEPTANCE_CRITERIA.md](docs/ACCEPTANCE_CRITERIA.md) | 69 testable acceptance criteria |
-| [docs/FUNCTIONAL_REQUIREMENTS.md](docs/FUNCTIONAL_REQUIREMENTS.md) | Detailed feature specifications |
-| [docs/NON_FUNCTIONAL_REQUIREMENTS.md](docs/NON_FUNCTIONAL_REQUIREMENTS.md) | Performance, security, maintainability |
+| [docs/requirements.md](docs/requirements.md) | Project goals, business requirements, constraints |
+| [docs/user_stories.md](docs/user_stories.md) | User stories by epic |
+| [docs/acceptance_criteria.md](docs/acceptance_criteria.md) | 69 testable acceptance criteria |
+| [docs/functional_requirements.md](docs/functional_requirements.md) | Detailed feature specifications |
+| [docs/non_functional_requirements.md](docs/non_functional_requirements.md) | Performance, security, maintainability |
 
 ### Technical Reference
 
 | Document | Description |
 |----------|-------------|
-| [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | System, frontend, backend architecture |
-| [docs/DIAGRAMS.md](docs/DIAGRAMS.md) | Consolidated Mermaid diagrams |
-| [docs/API.md](docs/API.md) | Full REST API reference |
-| [docs/DATABASE.md](docs/DATABASE.md) | Schema, relationships, indexes |
-| [docs/STATE_MACHINE.md](docs/STATE_MACHINE.md) | Task status transitions |
-| [docs/PROJECT_FLOW.md](docs/PROJECT_FLOW.md) | End-to-end project flows |
-| [docs/TESTING.md](docs/TESTING.md) | Test strategy and coverage plan |
-| [docs/DESIGN_DECISIONS.md](docs/DESIGN_DECISIONS.md) | Technology choices and rationale |
-| [docs/ADR.md](docs/ADR.md) | Architecture Decision Records |
+| [docs/architecture.md](docs/architecture.md) | System, frontend, backend architecture |
+| [docs/diagrams.md](docs/diagrams.md) | Consolidated Mermaid diagrams |
+| [docs/api.md](docs/api.md) | Full REST API reference |
+| [docs/database.md](docs/database.md) | Schema, relationships, indexes |
+| [docs/state_machine.md](docs/state_machine.md) | Task status transitions |
+| [docs/project_flow.md](docs/project_flow.md) | End-to-end project flows |
+| [docs/testing.md](docs/testing.md) | Test strategy and coverage plan |
+| [docs/design_decisions.md](docs/design_decisions.md) | Technology choices and rationale |
+| [docs/adr.md](docs/adr.md) | Architecture Decision Records |
 
 ### Assessment Deliverables (Root)
 

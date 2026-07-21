@@ -252,12 +252,12 @@ Plus 15+ root-level assessment deliverables (`api-contract.md`, `reflection.md`,
 | Evidence | Location |
 |----------|----------|
 | Phase prompts | `ai-prompts/planning.md` through `documentation.md` |
-| Cursor workflow | `docs/CURSOR_WORKFLOW.md`, `ai-prompts/tool-specific/cursor-workflow/` |
-| Prompt evolution | `docs/PROMPT_HISTORY.md` |
-| AI workflow | `docs/AI_WORKFLOW.md` |
+| Cursor workflow | `docs/cursor_workflow.md`, `ai-prompts/tool-specific/cursor-workflow/` |
+| Prompt evolution | `docs/prompt_history.md` |
+| AI workflow | `docs/ai_workflow.md` |
 | Usage summary | `final-ai-usage-summary.md` |
 | Reflection | `reflection.md` |
-| ADRs | `docs/ADR.md` |
+| ADRs | `docs/adr.md` |
 | Review fixes | `review-fixes.md`, `code-review-notes.md` |
 
 ### Honest Limitations Documented
@@ -274,19 +274,19 @@ Plus 15+ root-level assessment deliverables (`api-contract.md`, `reflection.md`,
 | Step | Deliverable | Status |
 |------|-------------|--------|
 | 1 | Full project analysis | ✅ Complete |
-| 2 | `docs/REQUIREMENTS.md` + 4 requirement docs | ✅ Created |
-| 3 | `docs/AI_WORKFLOW.md` + 3 AI docs | ✅ Created |
-| 4 | `docs/ARCHITECTURE.md` | ✅ Created |
-| 5 | `docs/STATE_MACHINE.md` | ✅ Created |
-| 6 | `docs/API.md` | ✅ Created |
-| 7 | `docs/DATABASE.md` | ✅ Created |
-| 8 | `docs/TESTING.md` | ✅ Created |
+| 2 | `docs/requirements.md` + 4 requirement docs | ✅ Created |
+| 3 | `docs/ai_workflow.md` + 3 AI docs | ✅ Created |
+| 4 | `docs/architecture.md` | ✅ Created |
+| 5 | `docs/state_machine.md` | ✅ Created |
+| 6 | `docs/api.md` | ✅ Created |
+| 7 | `docs/database.md` | ✅ Created |
+| 8 | `docs/testing.md` | ✅ Created |
 | 9 | `README.md` rewrite | ✅ Updated |
 | 10 | Code quality (helpers, constants, logging) | ✅ Improved |
 | 11 | Professional comments | ✅ Added |
-| 12 | `docs/DIAGRAMS.md` | ✅ Created |
-| 13 | `docs/ADR.md` | ✅ Created |
-| 14 | `docs/PROJECT_FLOW.md` | ✅ Created |
+| 12 | `docs/diagrams.md` | ✅ Created |
+| 13 | `docs/adr.md` | ✅ Created |
+| 14 | `docs/project_flow.md` | ✅ Created |
 | 15 | `FINAL_REVIEW.md` | ✅ This document |
 
 ### Files Created/Modified in Improvement Phase
@@ -324,8 +324,8 @@ Plus 15+ root-level assessment deliverables (`api-contract.md`, `reflection.md`,
 1. **Start with** `README.md` → `docs/` index for navigation
 2. **Run** `npm install && npm run dev` — app works immediately
 3. **Run** `npm test` — all 17 tests pass (ignore teardown exit code)
-4. **Check** `docs/AI_WORKFLOW.md` and `ai-prompts/` for AI evidence
-5. **Review** `docs/ACCEPTANCE_CRITERIA.md` for feature verification
+4. **Check** `docs/ai_workflow.md` and `ai-prompts/` for AI evidence
+5. **Review** `docs/acceptance_criteria.md` for feature verification
 6. **Note** SQLite (not MongoDB) and no auth (documented as out-of-scope)
 
 ---

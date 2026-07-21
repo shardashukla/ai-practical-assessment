@@ -646,7 +646,7 @@ Example Response
 
 STEP 7 - Database Documentation
 Generate
-docs/DATABASE.md
+docs/database.md
 Include
 
 Collections
@@ -1020,11 +1020,11 @@ I **will**:
 **Ready for Step 2?**  
 On your confirmation, I will create `docs/` and generate:
 
-- `docs/REQUIREMENTS.md`
-- `docs/USER_STORIES.md`
-- `docs/ACCEPTANCE_CRITERIA.md`
-- `docs/FUNCTIONAL_REQUIREMENTS.md`
-- `docs/NON_FUNCTIONAL_REQUIREMENTS.md`
+- `docs/requirements.md`
+- `docs/user_stories.md`
+- `docs/acceptance_criteria.md`
+- `docs/functional_requirements.md`
+- `docs/non_functional_requirements.md`
 
 Reply **yes** or **proceed** to continue to Step 2.
 
@@ -1051,11 +1051,11 @@ Created the `docs/` folder with five requirement documents based on the **curren
 
 | File | Purpose |
 |------|---------|
-| `docs/REQUIREMENTS.md` | Project goal, business requirements, functional flow, edge cases, validation rules, success criteria, assumptions, constraints |
-| `docs/USER_STORIES.md` | 15 user stories across 5 epics with persona definitions, story map, and priority matrix |
-| `docs/ACCEPTANCE_CRITERIA.md` | 69 testable criteria (47 core + 22 stretch), all marked ✅ with verification methods |
-| `docs/FUNCTIONAL_REQUIREMENTS.md` | Detailed specs for dashboard, CRUD, search/filter, activity log, users, UI states, and navigation |
-| `docs/NON_FUNCTIONAL_REQUIREMENTS.md` | Performance, reliability, security, maintainability, testability, accessibility, scalability, deployment |
+| `docs/requirements.md` | Project goal, business requirements, functional flow, edge cases, validation rules, success criteria, assumptions, constraints |
+| `docs/user_stories.md` | 15 user stories across 5 epics with persona definitions, story map, and priority matrix |
+| `docs/acceptance_criteria.md` | 69 testable criteria (47 core + 22 stretch), all marked ✅ with verification methods |
+| `docs/functional_requirements.md` | Detailed specs for dashboard, CRUD, search/filter, activity log, users, UI states, and navigation |
+| `docs/non_functional_requirements.md` | Performance, reliability, security, maintainability, testability, accessibility, scalability, deployment |
 
 ---
 
@@ -1081,10 +1081,10 @@ Created the `docs/` folder with five requirement documents based on the **curren
 **Ready for Step 3?**  
 On confirmation, I will generate:
 
-- `docs/AI_WORKFLOW.md`
-- `docs/PROMPT_HISTORY.md`
-- `docs/DESIGN_DECISIONS.md`
-- `docs/CURSOR_WORKFLOW.md`
+- `docs/ai_workflow.md`
+- `docs/prompt_history.md`
+- `docs/design_decisions.md`
+- `docs/cursor_workflow.md`
 
 Reply **yes** or **proceed** to continue.
 
@@ -1114,10 +1114,10 @@ Created four AI workflow documents in `docs/`, based on existing evidence in `ai
 
 | File | Purpose |
 |------|---------|
-| `docs/AI_WORKFLOW.md` | End-to-end AI workflow across 8 phases, refactoring/debugging workflows, manual overrides, effectiveness summary |
-| `docs/PROMPT_HISTORY.md` | Chronological prompt evolution (v1 broad → v4 targeted), 25+ prompts with outcomes |
-| `docs/DESIGN_DECISIONS.md` | 11 architecture decisions (React, Express, SQLite, Zod, REST, state machine, etc.) with rationale and alternatives |
-| `docs/CURSOR_WORKFLOW.md` | Cursor-specific practices: Agent mode, `@` referencing, session workflow, tips, ethical use |
+| `docs/ai_workflow.md` | End-to-end AI workflow across 8 phases, refactoring/debugging workflows, manual overrides, effectiveness summary |
+| `docs/prompt_history.md` | Chronological prompt evolution (v1 broad → v4 targeted), 25+ prompts with outcomes |
+| `docs/design_decisions.md` | 11 architecture decisions (React, Express, SQLite, Zod, REST, state machine, etc.) with rationale and alternatives |
+| `docs/cursor_workflow.md` | Cursor-specific practices: Agent mode, `@` referencing, session workflow, tips, ethical use |
 
 ---
 
@@ -1161,7 +1161,7 @@ docs/
 **Ready for Step 4?**  
 On confirmation, I will generate:
 
-- `docs/ARCHITECTURE.md` (high-level, frontend, backend, API, database, folder structure, component hierarchy, Mermaid diagrams)
+- `docs/architecture.md` (high-level, frontend, backend, API, database, folder structure, component hierarchy, Mermaid diagrams)
 
 Reply **yes** or **proceed** to continue.
 
@@ -1175,12 +1175,12 @@ yes
 
 **Cursor**
 
-Creating `docs/ARCHITECTURE.md` from the current codebase structure and implementation.
+Creating `docs/architecture.md` from the current codebase structure and implementation.
 
 
 # Step 4 Complete — Architecture Documentation
 
-Created `docs/ARCHITECTURE.md` with full system architecture documentation and Mermaid diagrams.
+Created `docs/architecture.md` with full system architecture documentation and Mermaid diagrams.
 
 ---
 
@@ -1188,7 +1188,7 @@ Created `docs/ARCHITECTURE.md` with full system architecture documentation and M
 
 | File | Lines | Diagrams |
 |------|-------|----------|
-| `docs/ARCHITECTURE.md` | ~450 | 14 Mermaid diagrams |
+| `docs/architecture.md` | ~450 | 14 Mermaid diagrams |
 
 ---
 
@@ -1242,7 +1242,7 @@ Created `docs/ARCHITECTURE.md` with full system architecture documentation and M
 **Ready for Step 5?**  
 On confirmation, I will generate:
 
-- `docs/STATE_MACHINE.md` (task status states, events, transitions, invalid transitions, error states)
+- `docs/state_machine.md` (task status states, events, transitions, invalid transitions, error states)
 
 Reply **yes** or **proceed** to continue.
 
@@ -1256,12 +1256,12 @@ yes
 
 **Cursor**
 
-Creating `docs/STATE_MACHINE.md` from the task status implementation and UI state patterns in the codebase.
+Creating `docs/state_machine.md` from the task status implementation and UI state patterns in the codebase.
 
 
 # Step 5 Complete — State Machine Documentation
 
-Created `docs/STATE_MACHINE.md` documenting all state machines in the current implementation.
+Created `docs/state_machine.md` documenting all state machines in the current implementation.
 
 ---
 
@@ -1269,7 +1269,7 @@ Created `docs/STATE_MACHINE.md` documenting all state machines in the current im
 
 | File | Diagrams |
 |------|----------|
-| `docs/STATE_MACHINE.md` | 12 Mermaid diagrams |
+| `docs/state_machine.md` | 12 Mermaid diagrams |
 
 ---
 
@@ -1320,7 +1320,7 @@ docs/
 **Ready for Step 6?**  
 On confirmation, I will generate:
 
-- `docs/API.md` (full endpoint reference with request/response, validation, error codes, examples)
+- `docs/api.md` (full endpoint reference with request/response, validation, error codes, examples)
 
 Reply **yes** or **proceed** to continue.
 
@@ -1334,12 +1334,12 @@ yes
 
 **Cursor**
 
-Creating `docs/API.md` from the route handlers and existing API contract.
+Creating `docs/api.md` from the route handlers and existing API contract.
 
 
 # Step 6 Complete — API Documentation
 
-Created `docs/API.md` with full API reference for all 9 endpoints.
+Created `docs/api.md` with full API reference for all 9 endpoints.
 
 ---
 
@@ -1347,7 +1347,7 @@ Created `docs/API.md` with full API reference for all 9 endpoints.
 
 | File | Endpoints | Sections |
 |------|-----------|----------|
-| `docs/API.md` | 9 | General info, data types, 9 endpoint specs, flow diagrams, validation reference, error matrix |
+| `docs/api.md` | 9 | General info, data types, 9 endpoint specs, flow diagrams, validation reference, error matrix |
 
 ---
 
@@ -1413,7 +1413,7 @@ docs/
 **Ready for Step 7?**  
 On confirmation, I will generate:
 
-- `docs/DATABASE.md` (collections/tables, schemas, relationships, validation, indexes, ER diagram)
+- `docs/database.md` (collections/tables, schemas, relationships, validation, indexes, ER diagram)
 
 Reply **yes** or **proceed** to continue.
 
@@ -1429,7 +1429,7 @@ yes
 
 # Step 7 Complete — Database Documentation
 
-Created `docs/DATABASE.md` with full SQLite database documentation.
+Created `docs/database.md` with full SQLite database documentation.
 
 ---
 
@@ -1437,7 +1437,7 @@ Created `docs/DATABASE.md` with full SQLite database documentation.
 
 | File | Tables | Diagrams |
 |------|--------|----------|
-| `docs/DATABASE.md` | 3 | 4 Mermaid diagrams |
+| `docs/database.md` | 3 | 4 Mermaid diagrams |
 
 ---
 
@@ -1495,7 +1495,7 @@ docs/
 **Ready for Step 8?**  
 On confirmation, I will generate:
 
-- `docs/TESTING.md` (unit tests, integration tests, manual testing, edge cases, validation matrix, test coverage plan)
+- `docs/testing.md` (unit tests, integration tests, manual testing, edge cases, validation matrix, test coverage plan)
 
 Reply **yes** or **proceed** to continue.
 
@@ -1511,7 +1511,7 @@ yes
 
 # Step 8 Complete — Testing Documentation
 
-Created `docs/TESTING.md` with testing strategy, coverage, and verification details.
+Created `docs/testing.md` with testing strategy, coverage, and verification details.
 
 ---
 
@@ -1519,7 +1519,7 @@ Created `docs/TESTING.md` with testing strategy, coverage, and verification deta
 
 | File | Sections | Diagrams |
 |------|----------|----------|
-| `docs/TESTING.md` | 15 major sections | 3 Mermaid diagrams |
+| `docs/testing.md` | 15 major sections | 3 Mermaid diagrams |
 
 ---
 
@@ -1778,7 +1778,7 @@ Added focused comments only where logic is non-obvious. No behavior changes. `np
 ---
 
 **Ready for Step 12?**  
-On confirmation, I will generate architecture diagram documentation (many diagrams already exist in `docs/ARCHITECTURE.md`; Step 12 will add/consolidate diagrams for system architecture, folder structure, component tree, API flow, auth flow, database flow, ticket flow, and user journey).
+On confirmation, I will generate architecture diagram documentation (many diagrams already exist in `docs/architecture.md`; Step 12 will add/consolidate diagrams for system architecture, folder structure, component tree, API flow, auth flow, database flow, ticket flow, and user journey).
 
 Reply **yes** or **proceed** to continue.
 
@@ -1794,12 +1794,12 @@ yes
 
 **Cursor**
 
-Creating `docs/DIAGRAMS.md` to consolidate all architecture diagrams in one place.
+Creating `docs/diagrams.md` to consolidate all architecture diagrams in one place.
 
 
 # Step 12 Complete — Architecture Diagrams
 
-Created `docs/DIAGRAMS.md` with all required Mermaid diagrams in one place, and linked it from `README.md`.
+Created `docs/diagrams.md` with all required Mermaid diagrams in one place, and linked it from `README.md`.
 
 ---
 
@@ -1807,7 +1807,7 @@ Created `docs/DIAGRAMS.md` with all required Mermaid diagrams in one place, and 
 
 | File | Diagrams |
 |------|----------|
-| `docs/DIAGRAMS.md` | 20 Mermaid diagrams across 8 sections |
+| `docs/diagrams.md` | 20 Mermaid diagrams across 8 sections |
 
 ---
 
@@ -1830,7 +1830,7 @@ Created `docs/DIAGRAMS.md` with all required Mermaid diagrams in one place, and 
 
 - **Authentication** is documented honestly as not implemented, with a future-state diagram
 - Diagrams cross-reference existing docs (`ARCHITECTURE.md`, `STATE_MACHINE.md`, `API.md`, etc.)
-- `README.md` updated with link to `docs/DIAGRAMS.md`
+- `README.md` updated with link to `docs/diagrams.md`
 
 ---
 
@@ -1850,7 +1850,7 @@ docs/
 **Ready for Step 13?**  
 On confirmation, I will generate:
 
-- `docs/ADR.md` — Architecture Decision Records for React, Node.js, Express, SQLite, Zod, MVC, state machine, REST APIs
+- `docs/adr.md` — Architecture Decision Records for React, Node.js, Express, SQLite, Zod, MVC, state machine, REST APIs
 
 Reply **yes** or **proceed** to continue.
 
@@ -1866,7 +1866,7 @@ yes
 
 # Step 13 Complete — Architecture Decision Records
 
-Created `docs/ADR.md` with 10 decision records in standard ADR format, and linked it from `README.md`.
+Created `docs/adr.md` with 10 decision records in standard ADR format, and linked it from `README.md`.
 
 ---
 
@@ -1874,7 +1874,7 @@ Created `docs/ADR.md` with 10 decision records in standard ADR format, and linke
 
 | File | Records |
 |------|---------|
-| `docs/ADR.md` | 10 ADRs + decision matrix + rejected alternatives |
+| `docs/adr.md` | 10 ADRs + decision matrix + rejected alternatives |
 
 ---
 
@@ -1906,7 +1906,7 @@ Created `docs/ADR.md` with 10 decision records in standard ADR format, and linke
 **Ready for Step 14?**  
 On confirmation, I will generate:
 
-- `docs/PROJECT_FLOW.md` — Login flow, dashboard flow, CRUD flow, API flow, error flow, backend flow
+- `docs/project_flow.md` — Login flow, dashboard flow, CRUD flow, API flow, error flow, backend flow
 
 Reply **yes** or **proceed** to continue.
 
@@ -1922,7 +1922,7 @@ yes
 
 # Step 14 Complete — Project Flow Documentation
 
-Created `docs/PROJECT_FLOW.md` with end-to-end flow documentation for the current implementation.
+Created `docs/project_flow.md` with end-to-end flow documentation for the current implementation.
 
 ---
 
@@ -1930,7 +1930,7 @@ Created `docs/PROJECT_FLOW.md` with end-to-end flow documentation for the curren
 
 | File | Sections | Diagrams |
 |------|----------|----------|
-| `docs/PROJECT_FLOW.md` | 8 major flows | 15 Mermaid diagrams |
+| `docs/project_flow.md` | 8 major flows | 15 Mermaid diagrams |
 
 ---
 
@@ -1954,7 +1954,7 @@ Created `docs/PROJECT_FLOW.md` with end-to-end flow documentation for the curren
 - **Login flow** documented as not implemented, with entry/access flow instead
 - **Delete** noted as not implemented
 - Cross-references to `DIAGRAMS.md`, `STATE_MACHINE.md`, `API.md`
-- `README.md` updated with link to `docs/PROJECT_FLOW.md`
+- `README.md` updated with link to `docs/project_flow.md`
 
 ---
 
@@ -2109,7 +2109,7 @@ AI’s first overdue SQL counted completed tasks with past due dates. I caught i
 | **Code fix (overdue SQL)** | https://github.com/shardashukla/ai-practical-assessment/blob/main/src/server/routes/dashboard.ts#L16-L19 |
 | **Debug write-up** | https://github.com/shardashukla/ai-practical-assessment/blob/main/debugging-notes.md |
 | **Review fix log** | https://github.com/shardashukla/ai-practical-assessment/blob/main/review-fixes.md |
-| **AI correction prompt** | https://github.com/shardashukla/ai-practical-assessment/blob/main/docs/PROMPT_HISTORY.md (search “Overdue Count Bug”) |
+| **AI correction prompt** | https://github.com/shardashukla/ai-practical-assessment/blob/main/docs/prompt_history.md (search “Overdue Count Bug”) |
 | **ESM path fix (AI mistake #2)** | https://github.com/shardashukla/ai-practical-assessment/blob/main/src/server/db.ts#L6-L8 |
 
 ---

@@ -473,7 +473,7 @@ Each document should reflect the CURRENT implementation.
 ### Prompt 8.3 — AI Workflow Documentation
 
 ```
-Generate docs/AI_WORKFLOW.md, PROMPT_HISTORY.md, DESIGN_DECISIONS.md, CURSOR_WORKFLOW.md
+Generate docs/ai_workflow.md, PROMPT_HISTORY.md, DESIGN_DECISIONS.md, CURSOR_WORKFLOW.md
 Explain how AI was used, prompt evolution, refactoring workflow, 
 debugging workflow, design decisions, manual improvements after AI suggestions.
 ```

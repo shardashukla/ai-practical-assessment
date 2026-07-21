@@ -1,0 +1,9 @@
+node_modules/
+dist/
+database/app.db
+database/app.db-*
+database/test.db
+*.log
+.DS_Store
+.env
+coverage/

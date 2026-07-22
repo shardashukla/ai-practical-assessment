@@ -287,7 +287,7 @@ Plus 15+ root-level assessment deliverables (`api-contract.md`, `reflection.md`,
 | 12 | `docs/diagrams.md` | ✅ Created |
 | 13 | `docs/adr.md` | ✅ Created |
 | 14 | `docs/project_flow.md` | ✅ Created |
-| 15 | `FINAL_REVIEW.md` | ✅ This document |
+| 15 | `final_review.md` | ✅ This document |
 
 ### Files Created/Modified in Improvement Phase
 

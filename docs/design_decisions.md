@@ -477,7 +477,6 @@ Built early as reusable primitives:
 
 ## Related Documents
 
-- [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture (Step 4)
-- [ADR.md](./ADR.md) — Architecture Decision Records (Step 13)
-- [STATE_MACHINE.md](./STATE_MACHINE.md) — Task status state machine (Step 5)
-- [AI_WORKFLOW.md](./AI_WORKFLOW.md) — How AI informed these decisions
+- [architecture.md](./architecture.md) — System architecture (Step 4)
+- [state_machine.md](./state_machine.md) — Task status state machine (Step 5)
+- [ai_workflow.md](./ai_workflow.md) — How AI informed these decisions

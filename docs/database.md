@@ -570,10 +570,10 @@ Each test suite starts with a fresh copy of seed data.
 
 ## Related Documents
 
-- [ARCHITECTURE.md](./ARCHITECTURE.md) — Database layer in system architecture
-- [API.md](./API.md) — API endpoints that read/write these tables
-- [STATE_MACHINE.md](./STATE_MACHINE.md) — Task status transitions
-- [DESIGN_DECISIONS.md](./DESIGN_DECISIONS.md) — DD-4 SQLite choice rationale
+- [architecture.md](./architecture.md) — Database layer in system architecture
+- [api.md](./api.md) — API endpoints that read/write these tables
+- [state_machine.md](./state_machine.md) — Task status transitions
+- [design_decisions.md](./design_decisions.md) — DD-4 SQLite choice rationale
 - `database/setup-notes.md` — Quick setup reference
 - `database/schema-or-migrations/schema.sql` — Source schema
 - `database/seed-data/seed-data.sql` — Source seed data

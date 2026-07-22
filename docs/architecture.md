@@ -746,8 +746,8 @@ flowchart LR
 
 ## Related Documents
 
-- [DESIGN_DECISIONS.md](./DESIGN_DECISIONS.md) — Technology choices and rationale
-- [DATABASE.md](./DATABASE.md) — Detailed database documentation (Step 7)
-- [API.md](./API.md) — Full API reference (Step 6)
-- [STATE_MACHINE.md](./STATE_MACHINE.md) — Task status transitions (Step 5)
-- [PROJECT_FLOW.md](./PROJECT_FLOW.md) — User and system flows (Step 14)
+- [design_decisions.md](./design_decisions.md) — Technology choices and rationale
+- [database.md](./database.md) — Detailed database documentation (Step 7)
+- [api.md](./api.md) — Full API reference (Step 6)
+- [state_machine.md](./state_machine.md) — Task status transitions (Step 5)
+- [state_machine.md](./state_machine.md) — User and system flows (Step 14)

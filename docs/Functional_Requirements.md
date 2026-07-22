@@ -335,6 +335,6 @@ flowchart TB
 
 ## Related Documents
 
-- [REQUIREMENTS.md](./REQUIREMENTS.md) — High-level requirements
-- [ACCEPTANCE_CRITERIA.md](./ACCEPTANCE_CRITERIA.md) — Testable criteria
-- [API.md](./API.md) — Full API reference (Step 6)
+- [requirements.md](./requirements.md) — High-level requirements
+- [acceptance-criteria.md](./acceptance-criteria.md) — Testable criteria
+- [api.md](./api.md) — Full API reference (Step 6)

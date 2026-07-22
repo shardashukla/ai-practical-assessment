@@ -165,7 +165,7 @@ SQLite (users, project_tasks, activity_logs)
 
 ## Related Documents
 
-- [USER_STORIES.md](./USER_STORIES.md) — User stories with acceptance mapping
-- [ACCEPTANCE_CRITERIA.md](./ACCEPTANCE_CRITERIA.md) — Testable acceptance checklist
-- [FUNCTIONAL_REQUIREMENTS.md](./FUNCTIONAL_REQUIREMENTS.md) — Detailed feature specifications
-- [NON_FUNCTIONAL_REQUIREMENTS.md](./NON_FUNCTIONAL_REQUIREMENTS.md) — Performance, security, and quality attributes
+- [user_stories.md](./user_stories.md) — User stories with acceptance mapping
+- [acceptance-criteria.md](./acceptance-criteria.md) — Testable acceptance checklist
+- [Functional_Requirements.md](./Functional_Requirements.md) — Detailed feature specifications
+- [Non_Functional_Requirements.md](./Non_Functional_Requirements.md) — Performance, security, and quality attributes

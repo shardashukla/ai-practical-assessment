@@ -520,7 +520,7 @@ flowchart TB
 
 ## Related Documents
 
-- [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
-- [DESIGN_DECISIONS.md](./DESIGN_DECISIONS.md) — DD-9 Task Status State Machine rationale
-- [FUNCTIONAL_REQUIREMENTS.md](./FUNCTIONAL_REQUIREMENTS.md) — FR-2.5 Quick Status Change
-- [API.md](./API.md) — Status endpoint specification (Step 6)
+- [architecture.md](./architecture.md) — System architecture
+- [design_decisions.md](./design_decisions.md) — DD-9 Task Status State Machine rationale
+- [Functional_Requirements.md](./Functional_Requirements.md) — FR-2.5 Quick Status Change
+- [api.md](./api.md) — Status endpoint specification (Step 6)

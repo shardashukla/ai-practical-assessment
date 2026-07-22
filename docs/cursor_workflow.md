@@ -346,8 +346,8 @@ NODE_ENV=test                # Disables server listen in tests
 
 ## Related Documents
 
-- [AI_WORKFLOW.md](./AI_WORKFLOW.md) — End-to-end AI development workflow
-- [PROMPT_HISTORY.md](./PROMPT_HISTORY.md) — Chronological prompt record
-- [DESIGN_DECISIONS.md](./DESIGN_DECISIONS.md) — Architecture choices
+- [ai_workflow.md](./ai_workflow.md) — End-to-end AI development workflow
+- [prompt_history.md](./prompt_history.md) — Chronological prompt record
+- [design_decisions.md](./design_decisions.md) — Architecture choices
 - `ai-prompts/tool-specific/cursor-workflow/README.md` — Original Cursor artifacts
 - `final-ai-usage-summary.md` — Executive AI usage summary

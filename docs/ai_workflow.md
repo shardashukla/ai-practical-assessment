@@ -266,6 +266,6 @@ flowchart TD
 
 ## Related Documents
 
-- [PROMPT_HISTORY.md](./PROMPT_HISTORY.md) — Chronological prompt evolution
-- [DESIGN_DECISIONS.md](./DESIGN_DECISIONS.md) — Architecture and technology choices
-- [CURSOR_WORKFLOW.md](./CURSOR_WORKFLOW.md) — Cursor IDE-specific practices
+- [prompt_history.md](./prompt_history.md) — Chronological prompt evolution
+- [design_decisions.md](./design_decisions.md) — Architecture and technology choices
+- [cursor_workflow.md](./cursor_workflow.md) — Cursor IDE-specific practices

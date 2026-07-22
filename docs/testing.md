@@ -521,9 +521,9 @@ sqlite3 database/test.db "SELECT * FROM project_tasks;"
 
 ## Related Documents
 
-- [ACCEPTANCE_CRITERIA.md](./ACCEPTANCE_CRITERIA.md) — Testable criteria checklist
-- [API.md](./API.md) — Endpoint specifications for test design
-- [FUNCTIONAL_REQUIREMENTS.md](./FUNCTIONAL_REQUIREMENTS.md) — Feature specs
-- [NON_FUNCTIONAL_REQUIREMENTS.md](./NON_FUNCTIONAL_REQUIREMENTS.md) — NFR-5 Testability
+- [acceptance-criteria.md](./acceptance-criteria.md) — Testable criteria checklist
+- [api.md](./api.md) — Endpoint specifications for test design
+- [Functional_Requirements.md](./Functional_Requirements.md) — Feature specs
+- [Non_Functional_Requirements.md](./Non_Functional_Requirements.md) — NFR-5 Testability
 - `test-strategy.md` — Original test strategy (repository root)
 - `test-results.md` — Latest test run results (repository root)

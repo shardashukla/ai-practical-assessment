@@ -512,6 +512,6 @@ debugging workflow, design decisions, manual improvements after AI suggestions.
 
 ## Related Documents
 
-- [AI_WORKFLOW.md](./AI_WORKFLOW.md) — End-to-end AI workflow
-- [DESIGN_DECISIONS.md](./DESIGN_DECISIONS.md) — Technology and architecture choices
-- [CURSOR_WORKFLOW.md](./CURSOR_WORKFLOW.md) — Cursor IDE practices
+- [ai_workflow.md](./ai_workflow.md) — End-to-end AI workflow
+- [design_decisions.md](./design_decisions.md) — Technology and architecture choices
+- [cursor_workflow.md](./cursor_workflow.md) — Cursor IDE practices

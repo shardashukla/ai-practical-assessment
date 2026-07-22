@@ -886,8 +886,8 @@ Errors are thrown as `ApiRequestError` with `message`, `status`, and optional `d
 
 ## Related Documents
 
-- [ARCHITECTURE.md](./ARCHITECTURE.md) — API layer architecture
-- [STATE_MACHINE.md](./STATE_MACHINE.md) — Status transition rules
-- [DATABASE.md](./DATABASE.md) — Database schema (Step 7)
-- [FUNCTIONAL_REQUIREMENTS.md](./FUNCTIONAL_REQUIREMENTS.md) — Feature specifications
+- [architecture.md](./architecture.md) — API layer architecture
+- [state_machine.md](./state_machine.md) — Status transition rules
+- [database.md](./database.md) — Database schema (Step 7)
+- [Functional_Requirements.md](./Functional_Requirements.md) — Feature specifications
 - `api-contract.md` — Original API contract (repository root)

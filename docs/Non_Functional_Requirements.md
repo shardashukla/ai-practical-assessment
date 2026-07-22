@@ -216,6 +216,6 @@ quadrantChart
 
 ## Related Documents
 
-- [REQUIREMENTS.md](./REQUIREMENTS.md) — Business and project requirements
-- [FUNCTIONAL_REQUIREMENTS.md](./FUNCTIONAL_REQUIREMENTS.md) — Feature specifications
-- [TESTING.md](./TESTING.md) — Test strategy (Step 8)
+- [requirements.md](./requirements.md) — Business and project requirements
+- [Functional_Requirements.md](./Functional_Requirements.md) — Feature specifications
+- [testing.md](./testing.md) — Test strategy (Step 8)

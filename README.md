@@ -321,4 +321,4 @@ Assessment project — internal use.
 
 ## Final Review
 
-See [FINAL_REVIEW.md](FINAL_REVIEW.md) for the complete repository audit, scoring projection, and recommendations.
+See [FINAL_REVIEW.md](final_review.md) for the complete repository audit, scoring projection, and recommendations.
